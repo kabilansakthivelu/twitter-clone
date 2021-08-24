@@ -5,8 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.StrictMode >
+  <div className="p-4">
     <App />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
