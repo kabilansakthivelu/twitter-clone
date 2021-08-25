@@ -5,7 +5,7 @@ import {BsThreeDots, BsHeart} from 'react-icons/bs'
 import {FiMessageSquare} from 'react-icons/fi'
 
 const Content = () => {
-    return (<div className="mt-14 z-10">
+    return (<div className="mt-14 z-10 mb-8">
         {values.map((item)=>{
             return(<div key={item.id}>
         <div className="relative flex">
