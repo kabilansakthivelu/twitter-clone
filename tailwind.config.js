@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       maxWidth: {
        '1/4': '10rem',
-      }
+      },
+        inset:{
+          '-100':'-47rem',
+        },
     },
   },
   variants: {

@@ -47,7 +47,7 @@ if(window.innerWidth >= 1024 && window.innerWidth < 1280){
         )})}
         </div>
         <div>
-        {tweet ? <div><div className="w-96 mt-2 rounded-2xl p-4 min-h-0 bg-gray-300">
+        {tweet ? <div className="sticky -top-100"><div className="w-96 mt-2 rounded-2xl p-4 min-h-0 bg-gray-300">
         <h3 className="font-extrabold text-xl text-blue-500">What's happening</h3>
         {trending.map((item)=>{
             return(<div key={item.id} className="mt-4">
@@ -71,8 +71,15 @@ if(window.innerWidth >= 1024 && window.innerWidth < 1280){
 <button className="w-20 h-10 mt-2 bg-blue-500 absolute right-4 rounded-3xl">Follow</button>
 </div>
 </div>)})}
-   <p className="text-md text-blue-500 mt-4">Show more</p>
+   <p className="text-md text-blue-500 mt-4 sticky top-0">Show more</p>
         </div>
+        <p className="text-gray-500 text-sm pt-4">Terms of Service</p>
+        <p className="text-gray-500 text-sm pt-2">Privacy policy</p>
+        <p className="text-gray-500 text-sm pt-2">Cookie policy</p>
+        <p className="text-gray-500 text-sm pt-2">Ads</p>
+        <p className="text-gray-500 text-sm pt-2">Info</p>
+        <p className="text-gray-500 text-sm pt-2">More</p>
+        <p className="text-gray-500 text-sm py-2">This is twitter clone</p>
         </div>
         : 
         ""}
